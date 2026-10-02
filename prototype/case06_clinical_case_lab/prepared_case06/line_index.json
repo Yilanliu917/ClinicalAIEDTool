@@ -1,0 +1,225 @@
+{
+  "case_id": "case06",
+  "items": [
+    {
+      "line_id": "L001",
+      "path": "name",
+      "content": "Renata Sandoval"
+    },
+    {
+      "line_id": "L002",
+      "path": "age",
+      "content": 5
+    },
+    {
+      "line_id": "L003",
+      "path": "grade",
+      "content": "Kindergarten"
+    },
+    {
+      "line_id": "L004",
+      "path": "gender",
+      "content": "Female"
+    },
+    {
+      "line_id": "L005",
+      "path": "background",
+      "content": "Hispanic/Latino, Medical History: None, Parent Concerns: Struggling with speech sounds and fluency, Teacher Concerns: Difficulty following directions}"
+    },
+    {
+      "line_id": "L006",
+      "path": "assessment_results[0].assessment_name",
+      "content": "GFTA-3"
+    },
+    {
+      "line_id": "L007",
+      "path": "assessment_results[0].domain",
+      "content": "Articulation Disorders"
+    },
+    {
+      "line_id": "L008",
+      "path": "assessment_results[0].standard_score",
+      "content": 70
+    },
+    {
+      "line_id": "L009",
+      "path": "assessment_results[0].percentile",
+      "content": 30
+    },
+    {
+      "line_id": "L010",
+      "path": "assessment_results[0].severity",
+      "content": "Moderate"
+    },
+    {
+      "line_id": "L011",
+      "path": "assessment_results[1].assessment_name",
+      "content": "CELF-5"
+    },
+    {
+      "line_id": "L012",
+      "path": "assessment_results[1].domain",
+      "content": "Receptive Language Disorders"
+    },
+    {
+      "line_id": "L013",
+      "path": "assessment_results[1].standard_score",
+      "content": 80
+    },
+    {
+      "line_id": "L014",
+      "path": "assessment_results[1].percentile",
+      "content": 40
+    },
+    {
+      "line_id": "L015",
+      "path": "assessment_results[1].severity",
+      "content": "Mild"
+    },
+    {
+      "line_id": "L016",
+      "path": "assessment_results[2].assessment_name",
+      "content": "SSI-4"
+    },
+    {
+      "line_id": "L017",
+      "path": "assessment_results[2].domain",
+      "content": "Fluency Disorder"
+    },
+    {
+      "line_id": "L018",
+      "path": "assessment_results[2].standard_score",
+      "content": 60
+    },
+    {
+      "line_id": "L019",
+      "path": "assessment_results[2].percentile",
+      "content": 20
+    },
+    {
+      "line_id": "L020",
+      "path": "assessment_results[2].severity",
+      "content": "Moderate"
+    },
+    {
+      "line_id": "L021",
+      "path": "annual_goals[0].goal_number",
+      "content": 1
+    },
+    {
+      "line_id": "L022",
+      "path": "annual_goals[0].goal_brief",
+      "content": "Develop correct pronunciation of /k/ and /t/ sounds"
+    },
+    {
+      "line_id": "L023",
+      "path": "annual_goals[0].goal_annual",
+      "content": "Before or by the next annual ARD, Renata Sandoval will produce [ /k/ ] sounds correctly in [X/Y trials or X%] as measured by GFTA-3"
+    },
+    {
+      "line_id": "L024",
+      "path": "annual_goals[1].goal_number",
+      "content": 2
+    },
+    {
+      "line_id": "L025",
+      "path": "annual_goals[1].goal_brief",
+      "content": "Improve fluency during conversations"
+    },
+    {
+      "line_id": "L026",
+      "path": "annual_goals[1].goal_annual",
+      "content": "Before or by the next annual ARD, Renata Sandoval will maintain eye contact and speak at a normal pace in [X/Y trials or X%] as measured by SSI-4"
+    },
+    {
+      "line_id": "L027",
+      "path": "annual_goals[2].goal_number",
+      "content": 3
+    },
+    {
+      "line_id": "L028",
+      "path": "annual_goals[2].goal_brief",
+      "content": "Enhance receptive language skills"
+    },
+    {
+      "line_id": "L029",
+      "path": "annual_goals[2].goal_annual",
+      "content": "Before or by the next annual ARD, Renata Sandoval will demonstrate understanding of [X] words in [X/Y trials or X%] as measured by CELF-5"
+    },
+    {
+      "line_id": "L030",
+      "path": "session_notes[0].date",
+      "content": "2025-01-15"
+    },
+    {
+      "line_id": "L031",
+      "path": "session_notes[0].duration",
+      "content": "30 minutes"
+    },
+    {
+      "line_id": "L032",
+      "path": "session_notes[0].setting",
+      "content": "Individual"
+    },
+    {
+      "line_id": "L033",
+      "path": "session_notes[0].goal_addressed",
+      "content": "Goal 1"
+    },
+    {
+      "line_id": "L034",
+      "path": "session_notes[0].note",
+      "content": "Activity: /k/ and /t/ sound practice, Objective Data: Renata Sandoval achieved [4/10] with GFTA-3, Clinical Observation: Gradual progress with correct pronunciation"
+    },
+    {
+      "line_id": "L035",
+      "path": "session_notes[1].date",
+      "content": "2025-01-18"
+    },
+    {
+      "line_id": "L036",
+      "path": "session_notes[1].duration",
+      "content": "30 minutes"
+    },
+    {
+      "line_id": "L037",
+      "path": "session_notes[1].setting",
+      "content": "Individual"
+    },
+    {
+      "line_id": "L038",
+      "path": "session_notes[1].goal_addressed",
+      "content": "Goal 2"
+    },
+    {
+      "line_id": "L039",
+      "path": "session_notes[1].note",
+      "content": "Activity: Conversation practice, Objective Data: Renata Sandoval achieved [6/10] with SSI-4, Clinical Observation: Improved fluency and eye contact"
+    },
+    {
+      "line_id": "L040",
+      "path": "session_notes[2].date",
+      "content": "2025-01-22"
+    },
+    {
+      "line_id": "L041",
+      "path": "session_notes[2].duration",
+      "content": "30 minutes"
+    },
+    {
+      "line_id": "L042",
+      "path": "session_notes[2].setting",
+      "content": "Individual"
+    },
+    {
+      "line_id": "L043",
+      "path": "session_notes[2].goal_addressed",
+      "content": "Goal 1"
+    },
+    {
+      "line_id": "L044",
+      "path": "session_notes[2].note",
+      "content": "Activity: /k/ and /t/ sound practice, Objective Data: Renata Sandoval achieved [8/10] with GFTA-3, Clinical Observation: Significant progress with correct pronunciation"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "case_id": "case06",
+  "key_version": "0.1-provisional-not-adjudicated",
+  "student_visibility": "instructor_only",
+  "items": [
+    {
+      "key_item_id": "C06-01",
+      "anchor_refs": ["L008", "L009", "L010"],
+      "anchor_paths": ["assessment_results[0].standard_score", "assessment_results[0].percentile", "assessment_results[0].severity"],
+      "category": "Score and percentile reporting",
+      "status": "likely_error",
+      "required_idea": "The GFTA-3 standard score and percentile pair appears inconsistent and needs checking against the correct score type, test form, and norm table.",
+      "acceptable_alternatives": ["Flag the mismatch and ask to verify the official report/manual without guessing a replacement percentile."],
+      "do_not_require": ["A precise percentile conversion from memory", "A diagnosis based only on this score"],
+      "source_checks": ["Pearson GFTA-3 score report", "Applicable GFTA-3 manual and norm table"],
+      "importance": "medium"
+    },
+    {
+      "key_item_id": "C06-02",
+      "anchor_refs": ["L013", "L014", "L015"],
+      "anchor_paths": ["assessment_results[1].standard_score", "assessment_results[1].percentile", "assessment_results[1].severity"],
+      "category": "Score and percentile reporting",
+      "status": "contradicted_if_fields_are_as_labeled",
+      "required_idea": "If 80 is a CELF-5 standard score and 40 is its percentile rank, the pair conflicts with Pearson's guide, which maps SS 80 to PR 9 for the relevant index score conversion example.",
+      "acceptable_alternatives": ["Ask to verify the score type/index and official report before changing a value."],
+      "do_not_require": ["A precise diagnosis or treatment decision from a composite score alone"],
+      "source_checks": ["Pearson CELF-5 score guide", "Applicable CELF-5 manual/report"],
+      "importance": "medium"
+    },
+    {
+      "key_item_id": "C06-03",
+      "anchor_refs": ["L018", "L019", "L020"],
+      "anchor_paths": ["assessment_results[2].standard_score", "assessment_results[2].percentile", "assessment_results[2].severity"],
+      "category": "SSI-4 score labeling and severity",
+      "status": "needs_verification",
+      "required_idea": "The SSI-4 row's score label and pairing of score, percentile, and severity need to be verified against the actual SSI-4 scoring protocol and age-appropriate norm group. The case does not include enough scoring details to supply a replacement.",
+      "acceptable_alternatives": ["Call it a possible scoring/reporting inconsistency and request the protocol, age norm, and test manual."],
+      "do_not_require": ["A guessed replacement score or severity classification"],
+      "source_checks": ["Applicable SSI-4 manual/protocol", "Pearson SSI-4 product information"],
+      "importance": "medium"
+    },
+    {
+      "key_item_id": "C06-04",
+      "anchor_refs": ["L034", "L039", "L044"],
+      "anchor_paths": ["session_notes[0].note", "session_notes[1].note", "session_notes[2].note"],
+      "category": "Assessment measure versus session probe",
+      "status": "likely_error",
+      "required_idea": "The 4/10, 6/10, and 8/10 trial-like results are attributed to GFTA-3 or SSI-4 without describing standard administration/scoring. A treatment probe should be described separately with target, context, cueing, denominator, and scoring rule.",
+      "acceptable_alternatives": ["Ask whether these are informal probes mislabeled as test scores and recommend reporting formal assessment results separately."],
+      "do_not_require": ["A claim that the tests can never be used to monitor a client"],
+      "source_checks": ["GFTA-3/SSI-4 manuals", "ASHA Assessment Tools, Techniques, and Data Sources"],
+      "importance": "high"
+    },
+    {
+      "key_item_id": "C06-05",
+      "anchor_refs": ["L022", "L023"],
+      "anchor_paths": ["annual_goals[0].goal_brief", "annual_goals[0].goal_annual"],
+      "category": "Speech goal alignment and measurability",
+      "status": "contradicted_and_incomplete",
+      "required_idea": "The brief includes both /k/ and /t/, while the annual statement mentions /k/ only; the criterion remains a placeholder. Baseline/context/cueing and an appropriate measure are not specified.",
+      "acceptable_alternatives": ["Write separate measurable targets or explain why only /k/ is being targeted; define criterion and a suitable probe based on assessment."],
+      "do_not_require": ["Assuming /k/ or /t/ is an appropriate target without speech sample and language/dialect context"],
+      "source_checks": ["ASHA Speech Sound Disorders Practice Portal", "Educator goal-writing criteria"],
+      "importance": "medium"
+    },
+    {
+      "key_item_id": "C06-06",
+      "anchor_refs": ["L025", "L026", "L039"],
+      "anchor_paths": ["annual_goals[1].goal_brief", "annual_goals[1].goal_annual", "session_notes[1].note"],
+      "category": "Fluency goal and person-centered fit",
+      "status": "unsupported_and_potentially_non_person_centered",
+      "required_idea": "Eye contact and a universally 'normal' pace are not justified by the information provided. A fluency goal should follow individualized assessment of communication impact and child/family priorities; eye contact should not be imposed as a proxy for communication success.",
+      "acceptable_alternatives": ["Suggest a child-valued participation/communication goal or a specific strategy only if assessment supports it."],
+      "do_not_require": ["Claiming that all rate-focused goals are wrong", "A specific fluency diagnosis from the case alone"],
+      "source_checks": ["ASHA Stuttering, Cluttering, and Fluency Practice Portal"],
+      "importance": "high"
+    },
+    {
+      "key_item_id": "C06-07",
+      "anchor_refs": ["L012", "L013", "L028", "L029"],
+      "anchor_paths": ["assessment_results[1].domain", "assessment_results[1].standard_score", "annual_goals[2].goal_brief", "annual_goals[2].goal_annual"],
+      "category": "Language goal and case coherence",
+      "status": "incomplete",
+      "required_idea": "The receptive-language goal is vague, contains [X] placeholders, and does not define targets, context, supports, or success criteria. The clinical file does not establish the planned words or measurement rule.",
+      "acceptable_alternatives": ["Request baseline information and a goal tied to the assessment profile and functional need."],
+      "do_not_require": ["Knowing hidden generation metadata unless it is explicitly part of the student case"],
+      "source_checks": ["ASHA Spoken Language Disorders Practice Portal", "Educator goal-writing criteria"],
+      "importance": "medium"
+    },
+    {
+      "key_item_id": "C06-08",
+      "anchor_refs": ["L005", "L006", "L007", "L012", "L017"],
+      "anchor_paths": ["background", "assessment_results[0].domain", "assessment_results[0].standard_score", "assessment_results[1].domain", "assessment_results[2].domain"],
+      "category": "Missing assessment context",
+      "status": "missing_information",
+      "required_idea": "The case lacks language/dialect history, actual communication samples, test form/conditions, functional impact, and child/family perspective. Ethnicity alone does not establish language use or test-norm fit.",
+      "acceptable_alternatives": ["Name concrete history questions and a culturally/linguistically appropriate, multi-source assessment plan."],
+      "do_not_require": ["Assuming the child uses Spanish", "Declaring a test invalid based solely on Hispanic/Latino identity"],
+      "source_checks": ["ASHA Speech Sound Disorders Practice Portal", "ASHA Cultural Responsiveness", "ASHA Assessment Tools resource"],
+      "importance": "high"
+    },
+    {
+      "key_item_id": "C06-09",
+      "anchor_refs": [],
+      "anchor_paths": ["_metadata.disorders_requested"],
+      "category": "Hidden generation provenance mismatch",
+      "status": "instructor_only",
+      "required_idea": "Generation metadata requested expressive language while the visible case emphasizes receptive language. This is a dataset/provenance check, not a student finding unless the metadata is deliberately revealed.",
+      "acceptable_alternatives": [],
+      "do_not_require": ["A student response"],
+      "source_checks": [],
+      "importance": "low"
+    },
+    {
+      "key_item_id": "C06-10",
+      "anchor_refs": ["L005"],
+      "anchor_paths": ["background"],
+      "category": "Data quality / wording",
+      "status": "documentation_only",
+      "required_idea": "The trailing unmatched brace appears to be a text artifact. It can be cleaned up but is not a clinical reasoning error.",
+      "acceptable_alternatives": [],
+      "do_not_require": ["Clinical-error credit"],
+      "source_checks": [],
+      "importance": "low"
+    }
+  ]
+}
