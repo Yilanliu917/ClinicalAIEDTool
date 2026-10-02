@@ -1,0 +1,32 @@
+name: Clinical content review
+description: Request review of learner-facing clinical or AI-safety content.
+title: "[Content review]: "
+labels: ["content-review"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Content location
+      description: Link to the pull request, branch, or file.
+    validations:
+      required: true
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Learning objectives and audience
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Key sources
+      description: Include links or citations and access dates.
+    validations:
+      required: true
+  - type: textarea
+    id: reviewer
+    attributes:
+      label: Requested reviewer expertise
+    validations:
+      required: true
+
